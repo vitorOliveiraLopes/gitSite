@@ -1,0 +1,233 @@
+@charset "UTF-8";
+body {
+    /* background-image: url('body-background.png') */
+    background-color: white;
+}
+
+.navbarmenu {
+    background-color: black;
+    padding: 25px;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+
+.box-search {
+    margin-left: 400px;
+    margin-top: 50px;
+    width: 500px;
+    height: 30px;
+    ;
+}
+
+.btn-search {
+    margin-top: 50px;
+    margin-left: 10px;
+    background-color: gray;
+    border: none;
+    height: 30px;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+}
+
+.btn-search:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form-inline {
+    margin-top: -100px;
+}
+
+div#menu {
+    border-bottom: 1px solid black;
+}
+
+div#menu ul {
+    list-style: none;
+    margin-left: 480px;
+    text-transform: uppercase;
+}
+
+div#menu a {
+    text-decoration: none;
+    padding: 15px;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div#menu a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+div#menu li {
+    display: inline-block;
+    margin-bottom: -20px;
+}
+
+.navbarmenu img {
+    margin-left: 10px;
+}
+
+
+/* FORMATAÇÃO - FOTOS */
+
+div#fileira1 {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+div#fileira1 img#blusa1 {
+    /* margin-top: 20px; */
+    border: 2px solid black;
+    margin-left: 100px;
+}
+
+img#blusa2 {
+    border: 2px solid black;
+    margin-left: 140px;
+}
+
+img#blusa3 {
+    border: 2px solid black;
+    margin-left: 150px;
+}
+
+ul#legenda1 {
+    margin-left: 5px;
+}
+
+ul#legenda1 li {
+    list-style: none;
+    display: inline-block;
+    margin-top: -20px;
+}
+
+#legenda1 p {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+#legenda1 h2 {
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+.venda-btn1 {
+    margin-left: 5px;
+    color: white;
+    background-color: black;
+    border: none;
+    padding: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.venda-btn1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+div#precos ul {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+/* FOTOS REDONDAS */
+
+#blusacaveira1 {
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 20%;
+    height: 20%;
+    margin-left: 120px;
+    margin-top: 15px;
+    /* margin-bottom: 15px; */
+}
+
+div#fotosredondas {
+    background-color: rgba(128, 128, 128, 0.644);
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+div#precos2 li{
+    display: inline-block;
+}
+
+div#precos2 h2 {
+    color: rgb(46, 44, 44);
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+#btn-compra2 li {
+    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 210px;
+}
+
+#btnredondo2 {
+    margin-left: 70px;
+}
+
+#btnredondo3 {
+    margin-left: 150px;
+}
+
+#precoblusacaveira1 {
+    margin-left: 10 0px;
+}
+
+#nickblusa ul{
+    list-style: none;
+}
+
+#nickblusa li{
+    display: inline-block;
+    padding:  1px;
+}
+
+#nickblusa h3{
+    color: white;
+}
+
+#nickblusa1{
+    margin-left: 80px;
+}
+
+#nickblusa2{
+    margin-left: 180px;
+}
+
+#nickblusa3{
+    margin-left: 150px;
+}
+
+#listanick{
+    margin-top: -10px;
+}
+
+/* SLIDES */
+
+
+/* Make the image fully responsive */
+
+.carousel-inner img {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.carousel-slide {
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
