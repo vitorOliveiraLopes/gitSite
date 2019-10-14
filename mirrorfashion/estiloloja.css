@@ -12,6 +12,10 @@ header {
 	position: relative;
 }
 
+h1 img{
+	padding-top: 5px;
+}
+
 .sacola {
 	background: url(sacola.png) no-repeat top right;
 
@@ -27,6 +31,7 @@ header {
 
 .menu-opcoes {
 	position: absolute;
+	padding-bottom: 8px;
 	bottom: 0;
 	right: 0;
 }
@@ -37,11 +42,21 @@ header {
 
 .menu-opcoes ul li {
 	display: inline;
-	margin-left: 20px;
+	margin-left: 25px;
 }
 
 .menu-opcoes a {
-	color: #003366;
+	color: white;
+	background-color: black;
+	padding: 4px;
+	text-decoration: none;
+	border: solid 1px black;
+}
+
+.menu-opcoes a:hover{
+	background-color: white;
+	border: solid 1px black;
+	color: black;
 }
 
 .busca, 
@@ -108,10 +123,29 @@ header {
 	background-color: #f5dcdc;
 }
 
+.novidades figure:hover{
+	transition: 0.1s;
+	transform: scale(1.1);
+}
+
+.novidades figcaption{
+	font-size: 18px;
+}
+
 .mais-vendidos {
 	float: right;
 	background-color: #dcdcf5;
 }
+
+.mais-vendidos figure:hover{
+	transition: 0.1s;
+	transform: scale(1.1);
+}
+
+.mais-vendidos figcaption{
+	font-size: 18px;
+}
+
 
 .painel li {
 	display: inline-block;

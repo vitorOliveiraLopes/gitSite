@@ -1,0 +1,37 @@
+#centro{
+    display: block;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+.container {
+    width: 99vw;
+    height: 95vh;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    text-align: left;
+}
+
+form h1{
+    border-bottom: 2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-group{
+    padding-left: 20px;
+}
+
+#btn{
+    padding-top: 10px;
+    padding-left: 20px;
+}
