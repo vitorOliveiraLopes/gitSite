@@ -18,14 +18,13 @@ h1 img{
 
 .sacola {
 	background: url(sacola.png) no-repeat top right;
-
 	width: 140px;
 	font-size: 14px;
 	text-align: right;
 	padding-right: 35px;
 	padding-top: 8px;
 	position: absolute;
-	top: 0;
+	top: 10px;
 	right: 0;
 }
 
@@ -151,7 +150,6 @@ h1 img{
 	display: inline-block;
 	vertical-align: top;
 	width: 140px;
-
 	margin: 2px;
 	padding-bottom: 10px;
 }
@@ -164,7 +162,7 @@ h1 img{
 	margin-bottom: 10px;
 }
 
-.painel a {
+.painel a{
 	color: #333;
 	font-size: 14px;
 	text-align: center;
@@ -200,7 +198,6 @@ footer .container {
 .social li a {
 	height: 32px;
 	width: 32px;
-
 	display: block;
 	text-indent: -99999px;  
 }

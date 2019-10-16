@@ -3,7 +3,6 @@ body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin-left: auto;
 	margin-right: auto;
-	width: 940px;
 }
 
 h1 {
@@ -57,3 +56,96 @@ p {
 	margin: 0 0 10px 10px;
 }
 
+.social {
+	position: absolute;
+	top: 10px;
+	right: 40px;
+}
+
+.social li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+
+	display: block;
+	text-indent: -99999px;  
+}
+
+.social a[href*="facebook"] {
+	background-image: url(facebook.png);
+}
+
+.social a[href*="twitter"] {
+	background-image: url(twitter.png);
+}
+
+.social a[href*="plus"] {
+	background-image: url(googleplus.png);
+}
+
+footer {
+	background-image: url(fundo-rodape.png);
+	clear: both;
+	padding: 10px 0px 15px 0px;
+	width:100%;
+	position: absolute;
+}
+
+div.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+#logorod{
+	padding-left: 20px;
+	padding-top: 11px;
+}
+
+.menu-opcoes {
+	position: absolute;
+	padding-bottom: 8px;
+	bottom: 0;
+	right: 0;
+	top: 0;
+	padding-right: 250px;
+	padding-top: 79px;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 25px;
+}
+
+.menu-opcoes a {
+	color: white;
+	background-color: black;
+	padding: 4px;
+	text-decoration: none;
+	border: solid 1px black;
+}
+
+.menu-opcoes a:hover{
+	background-color: white;
+	border: solid 1px black;
+	color: black;
+}
+
+.sacola {
+	background: url(sacola.png) no-repeat top right;
+	width: 140px;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 250px;
+}
