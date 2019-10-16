@@ -7,7 +7,7 @@
     border: 1px solid black;
 }
 
-.container {
+.containercentro {
     width: 99vw;
     height: 95vh;
     background-color: white;
@@ -34,4 +34,101 @@ form h1{
 #btn{
     padding-top: 10px;
     padding-left: 20px;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+header {
+	position: relative;
+}
+
+h1 img{
+	padding-top: 5px;
+}
+
+.sacola {
+	background: url(sacola.png) no-repeat top right;
+
+	width: 140px;
+	font-size: 14px;
+	text-align: right;
+	padding-right: 35px;
+	padding-top: 8px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+footer {
+	background-image: url(fundo-rodape.png);
+	clear: both;
+	padding: 20px 0;
+}
+
+footer .container {
+	position: relative;
+	padding: 10px;
+}
+
+.social {
+	position: absolute;
+	top: 30px;
+	right: 0;
+}
+
+.social li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.social li a {
+	height: 32px;
+	width: 32px;
+	display: block;
+	text-indent: -99999px;  
+}
+
+.social a[href*="facebook"] {
+	background-image: url(facebook.png);
+}
+
+.social a[href*="twitter"] {
+	background-image: url(twitter.png);
+}
+
+.social a[href*="plus"] {
+	background-image: url(googleplus.png);
+}
+
+.menu-opcoes {
+	position: absolute;
+	padding-bottom: 8px;
+	bottom: 0;
+	right: 0;
+}
+
+.menu-opcoes ul {
+	font-size: 15px;
+}
+
+.menu-opcoes ul li {
+	display: inline;
+	margin-left: 25px;
+}
+
+.menu-opcoes a {
+	color: white;
+	background-color: black;
+	padding: 4px;
+	text-decoration: none;
+	border: solid 1px black;
+}
+
+.menu-opcoes a:hover{
+	background-color: white;
+	border: solid 1px black;
+	color: black;
 }
