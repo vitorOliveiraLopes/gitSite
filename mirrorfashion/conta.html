@@ -7,43 +7,38 @@
         <link href="estiloconta.css" rel="stylesheet">
     </head>
     <body>
-        <header class="container">
-                <h1>
-                    <img src="logo.png" alt="Mirror Fashion">
-                </h1>
-                    <p class="sacola">
-                        Nenhum item na sacola de compras
-                    </p>
-        
-                    <nav class="menu-opcoes">
-                        <ul>
-                            <li><a href="#">Sua Conta</a></li>
-                            <li><a href="#">Lista de Desejos</a></li>
-                            <li><a href="#">Cartão Fidelidade</a></li>
-                            <li><a href="sobre.html">Sobre</a></li>
-                            <li><a href="#">Ajuda</a></li>
-                        </ul>
-                    </nav>
-                </header>
-    <div class="containercentro">    
-        <div id='centro'>
+    <div class="container">
+       <header class="container">
+            <h1>
+                <img src="logo.png" alt="Mirror Fashion">
+            </h1>
+            
+            <p class="sacola">
+                Nenhum item na sacola de compras
+            </p>
+
+            <nav class="menu-opcoes">
+                <ul>
+                    <li><a href="#">Sua Conta</a></li>
+                    <li><a href="#">Lista de Desejos</a></li>
+                    <li><a href="#">Cartão Fidelidade</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div>
             <form>
-                <h1>Login</h1>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Endereço de email</label>
-                    <div>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Senha</label>
-                    <div>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-                    </div>
-                </div>
-                    <div id="btn">
-                        <button type="submit" class="btn-primary">Enviar</button>
-                    </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Endereço de email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email, com ninguém.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
         </div>
     </div>
