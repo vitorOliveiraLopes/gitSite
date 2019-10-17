@@ -1,7 +1,7 @@
 footer {
 	background-image: url(fundo-rodape.png);
 	clear: both;
-	padding: 10px 0px 0px 0px;
+	padding: 20px 0;
 }
 
 #logorod{
@@ -92,12 +92,15 @@ footer .container {
 }
 
 div#centro{
+	width: 600px;
 	background-color: white;
 	margin-top: 10%;
 	margin-bottom: 10%;
 	padding: 40px 0px 40px 300px;
 	border-radius: 5px;
   	background-color: #f2f2f2;
+  	border: 1px black solid;
+  	box-shadow: 0px 0px 0px 4px rgba(0,0,0,.1); 
   	/*padding: 20px;*/
 }
 
@@ -105,14 +108,14 @@ div#centro{
 	text-align: justify;
 }
 
-input[type=text], select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 10px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
+input[type=text]{
+	display: list-item;
+	padding: 10px 2px;
+	margin: 20px 0px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width: 40%;
+	border: 1px solid #ccc;
 }
 
 input[type=submit] {
@@ -128,5 +131,11 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #45a049;
+}
+
+.btn-primary{
+	padding: 5px;
+	color: blue;
+	font-size: 15px; 
 }
 
