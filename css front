@@ -1,0 +1,16 @@
+  .favourites__title {
+    background: none;
+    display: inline-block;
+    padding: 5px;
+    color: #fff;
+    margin: 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  
+    #chama{
+    color: #fff;
+    font-size: 20px;
+  }
+  
