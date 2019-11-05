@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Advanced Search</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/search.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav
+        class="navbar navbar-expand navbar-expand-sm navbar-expand-lg navbar-expand-md navbar-expand-xl fixed-top header">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link header_link" onclick="getBeers()" href="home.html">HOME</a>
+
+            </li>
+            <li class="nav-item">   
+                <a class="nav-link header_link" onclick="listFavourite()" href="#">FAVORITE</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Corpo -->
+    <main role="main">
+        <!-- Header -->
+        <div class="jumbotron text-center header">
+
+            <h1>The Beer Bank</h1>
+            <p>Choose Yourself</p>
+            <!-- Forms -->
+            <div class="container">
+                <div class="row">
+                    <input type="text" class="advanced_form" name="maxAbv" id="maxAbv" placeholder="Max ABV"
+                        onchange="searchBeerByMaxAbv()">
+                    <input type="text" class="advanced_form" name="search" id="minAbv" placeholder="Min ABV"
+                        onchange="searchBeerByMinAbv()">
+                    <input type="text" class="advanced_form" name="search" id="maxIbu" placeholder="Max IBU"
+                        onchange="searchBeerByMaxIbu()">
+                    <input type="text" class="advanced_form" name="search" id="minIbu" placeholder="Min IBU"
+                        onchange="searchBeerByMinIbu()">
+                    <input type="text" class="advanced_form" name="search" id="maxEbc" placeholder="Max EBC"
+                        onchange="searchBeerByMaxEbc()">
+                    <input type="text" class="advanced_form" name="search" id="minEbc" placeholder="Min EBC"
+                        onchange="searchBeerByMinEbc()">
+                </div>
+              
+            </div>
+        </div>
+        <p></p>
+
+        </div>
+        <!-- Cards -->
+        <div class="container">
+
+            <div class="card-deck" id="home">
+
+            </div>
+
+        </div>
+    </main>
+    <!-- scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <script src="js/search.js"></script>
+
+</body>
+
+</html>

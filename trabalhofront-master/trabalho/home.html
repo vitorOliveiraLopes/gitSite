@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Style -->
+    <link rel="stylesheet" href="css/home.css">
+    <title>The Beer Bank</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto" style="background-color: transparent !important">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" onclick= 'getBeers()' href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" onclick="
+                             listFavourite()" href="#">Favourite</a>
+                    </li>
+                </ul>
+                <br><br>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="bg-primary text-white bg-dark">
+        <div class="container-fluid text-center">
+            <br><br>
+            <h1 class="mt-5">THE BEER BANK</h1>
+            <p class="lead">Find your favorite beer here</p>
+            <div class="input-group col-sm-6 mx-auto">
+                <input class="form-control" type="text" name="search" id="search" autocomplete="off"
+                    placeholder="Search" onchange="searchBeer()">
+            </div>
+            <br><br>
+            <a href="search.html" class="pesquisa">Advanced Search</a>
+        </div><br>
+    </header>
+
+    <!-- Cards -->
+    <div class="container-fluid" style="margin-bottom: 100px;">
+        <div class="card-deck " id="home">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; The Beer Bank</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

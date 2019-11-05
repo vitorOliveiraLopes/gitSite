@@ -1,0 +1,69 @@
+.card {
+    width: 18rem;
+    height: 23rem;
+    margin-top: 4rem;
+    z-index: 0;
+}
+
+.beer_img {
+    max-width: 100%;
+    width: 72px;
+    height: 218px;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+.fa-star-style {
+    float: right;
+    color: #d6d6d6;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.center {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+
+.row {
+    margin: 0 auto;
+}
+
+.bg-dark {
+    background-color: #ff7b00 !important;
+}
+
+.title {
+    color: #ff7b00;
+    text-align: center !important;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.modal-backdrop {
+    z-index: 0;
+}
+
+.ativaEstrela {
+    color: #ff7b00;
+    z-index: 3;
+}
+
+.fa-star-o {
+    color: #ff7b00;
+    z-index: 3;
+}
+
+a {
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
